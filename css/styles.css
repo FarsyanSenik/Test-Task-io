@@ -1,0 +1,201 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+.container ul>li {
+    display: block;
+    color: red;
+    background-color: black;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* конец кода сброса стилей браузера */
+.container-fluid {
+    padding: 0;
+}
+.header {
+    height: 500px;
+    background-image: url("../img/cover.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header div {
+    text-align: center;
+    width: 50%;
+    height: 250px;
+}
+div.header-titile {
+    text-align: right;
+    color: white;
+    background-color: rgba(236, 30, 0, 0.4);
+}
+div.header-titile  .header-text {
+    text-align: left;
+    position: absolute;
+    right: 0;
+    bottom: -152px;
+    width: 470px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+.header-titile h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-family: "monospace";
+    padding-top: 30px;
+}
+.header-request {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(230,214,24,0.4);
+}
+.header-request a, .active {
+    background-color: rgb(161, 41, 29);
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+.header-request a {
+    padding-top: 8px;
+    width: 160px;
+    height: 35px;
+    cursor: pointer;
+}
+.header-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(29,210,19,0.4);
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
+}
+.header-menu ul {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    list-style-type: none;
+    color: white;
+    line-height: 30px;
+}
+.header-menu img {
+    height: 77%;
+    position: absolute;
+    left: 38%;
+    bottom: 0;
+}
+.header-menu .circle {
+    top: 88px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+    border: 1px solid white;
+}
+.header-menu a.button-ru {
+    color: white;
+    position: absolute;
+    top: 5px;
+    border: 1px solid white;
+    width: 50px;
+    height: 30px;
+    padding-top: 4px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+}
+.header-social ul {
+    list-style-type: none;
+    color: white;
+    font-size: 50px;
+    display: inline-flex;
+}
+.header-social ul li {
+    padding: 0 5px;
+}
+.content {
+    text-align: center;
+    margin-bottom: calc(100vh - 300px);
+}
+.content h4 {
+    font-weight: 100;
+}
+.content-title {
+    margin: 50px;
+    font-size: 45px;
+}
+div.icons {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgb(202,202,202);
+    border-radius: 50%;
+}
+.fa-icons {
+    padding-top: 9px;
+    font-size: 90px;
+}
+.content-blocks h4 {
+    font-weight: bolder;
+    margin: 40px 0;
+}
+.footer {
+    height: 600px;
+    background-color: rgb(215,216,217);
+}
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+.ripple:hover {
+    background: #A1291D radial-gradient(circle, transparent 1%, #A1291D 1%) center/15000%;
+}
+.ripple:active {
+    background-color: #f74e11;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+/* Button style */
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+}
